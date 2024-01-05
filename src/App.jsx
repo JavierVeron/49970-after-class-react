@@ -1,16 +1,16 @@
 import Banner from "./components/Banner"
 import Carousel from "./components/Carousel"
 import Footer from "./components/Footer"
-import Header from "./components/Header"
-import PreFooter from "./components/PreFooter"
+import ItemListContainer from "./components/ItemListContainer"
+import NavBar from "./components/NavBar"
 
 const App = () => {
   return (
     <>
-      <Header />
+      <NavBar />
       <Carousel />
+      <ItemListContainer titulo={"🚨 Atención 🚨"} mensaje={"❤️ Estamos actualizando el Sitio Web. Regresamos en unos minutos. ❤️"} />
       <Banner />
-      <PreFooter />
       <Footer />
     </>
   )
