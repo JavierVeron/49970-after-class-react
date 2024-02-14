@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom";
 import Logo from "../assets/mcdonalds-logo-footer-bg-white.png";
 
 const LogoMc = ({tamano}) => {
     return (
-        <img src={Logo} alt="McDonalds Argentina" width={tamano} />
+        <Link to={"/"}>
+            <img src={Logo} alt="McDonalds Argentina" width={tamano} />
+        </Link>
     )
 }
 
